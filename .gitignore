@@ -1,0 +1,32 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local data and generated artifacts
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.parquet
+data/raw/*.zip
+data/processed/*.db
+data/processed/*.sqlite
+data/processed/*.sqlite3
+exports/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.log
+
+# Local tooling
+.tools/
