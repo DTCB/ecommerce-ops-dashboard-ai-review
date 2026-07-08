@@ -30,3 +30,7 @@ Thumbs.db
 
 # Local tooling
 .tools/
+
+# Private job-search materials
+docs/interview_script.md
+docs/resume_bullets.md
