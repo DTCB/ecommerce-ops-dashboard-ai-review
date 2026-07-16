@@ -29,7 +29,10 @@ Thumbs.db
 *.log
 
 # Local tooling
+.codex/
+.agents/
 .tools/
+codex-*
 
 # Private job-search materials
 docs/interview_script.md

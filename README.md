@@ -60,17 +60,17 @@
 
 ## 运行方式
 
-如果本机没有 Python，可使用 Codex 桌面内置 Python 路径；如果已安装 Python，直接把下面命令里的 Python 替换为 `python`。
+请使用 Python 3.10+ 环境运行项目。
 
 ```powershell
-& 'C:\Users\wjh\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m pip install -r requirements.txt
-& 'C:\Users\wjh\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m streamlit run app.py
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
 ```
 
 可选：先把 Olist CSV 建模为 SQLite。
 
 ```powershell
-& 'C:\Users\wjh\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' scripts/build_database.py
+python scripts/build_database.py
 ```
 
 无 Olist 数据时，应用会自动提供演示样例数据，便于先查看页面与复盘能力。
@@ -109,7 +109,7 @@ $env:LLM_MODEL="gpt-4o-mini"
 ## 测试
 
 ```powershell
-& 'C:\Users\wjh\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m pytest
+python -m pytest
 ```
 
 测试覆盖原始数据缺失提示、取消订单排除、GMV/客单价/复购率、cohort 留存等核心口径。
