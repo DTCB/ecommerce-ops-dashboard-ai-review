@@ -236,6 +236,7 @@ async def review(request: ReviewRequest, http_request: Request) -> dict:
         }.get(upstream, "百炼调用失败，请检查接口地址和模型设置后重试。")
         raise HTTPException(status_code=502, detail=detail) from exc
     except httpx.RequestError as exc:
+        logger.warning("AI upstream request failed: %s", type(exc).__name__)
         raise HTTPException(status_code=502, detail="暂时无法连接百炼服务，请检查网络后重试。") from exc
     except ValidationError as exc:
         logger.warning("AI review schema mismatch: %s", [item["type"] for item in exc.errors(include_input=False)])

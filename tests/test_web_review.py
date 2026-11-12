@@ -106,6 +106,18 @@ def test_timeout_fails(client, upstream):
     assert client.post("/api/review", json={"month": "2018-06", "basis": "total"}).status_code == 504
 
 
+def test_connection_failure_logs_only_error_type(client, upstream, caplog):
+    def fail(request):
+        raise httpx.LocalProtocolError("request included test-key", request=request)
+
+    upstream(fail)
+    response = client.post("/api/review", json=REVIEW_CASE)
+    assert response.status_code == 502
+    assert "AI upstream request failed: LocalProtocolError" in caplog.text
+    assert "test-key" not in caplog.text
+    assert "test-key" not in response.text
+
+
 def test_missing_diagnosis_slot_fails(client, upstream):
     upstream(lambda request: completion("E01", slots=("D01",)))
     assert client.post("/api/review", json={"month": "2018-06", "basis": "total"}).status_code == 502
