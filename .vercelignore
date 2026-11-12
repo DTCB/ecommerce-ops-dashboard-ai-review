@@ -1,0 +1,14 @@
+.env
+.env.*
+.venv/
+venv/
+.tools/
+.codex/
+.agents/
+.streamlit/
+data/raw/
+data/processed/
+exports/
+output/
+docs/interview_script.md
+docs/resume_bullets.md

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "fluid": true,
+  "regions": ["hkg1"],
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 120,
+      "includeFiles": "{api/_*.py,data/demo_aggregates.json,data/demo_diagnostics.json,data/demo_products.json}",
+      "excludeFiles": "{web/**,dist/**,node_modules/**,tests/**,scripts/**,src/**,docs/**,data/raw/**,data/processed/**,.venv/**,.tools/**}"
+    }
+  },
+  "rewrites": [{ "source": "/api/:path*", "destination": "/api" }]
+}

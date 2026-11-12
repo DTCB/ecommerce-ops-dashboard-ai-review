@@ -1,0 +1,1413 @@
+{
+  "monthly": [
+    {
+      "month": "2017-12",
+      "days": 31,
+      "gmv": 843078.29,
+      "orders": 5513,
+      "aov": 152.92550154181026
+    },
+    {
+      "month": "2018-01",
+      "days": 31,
+      "gmv": 1077887.46,
+      "orders": 7069,
+      "aov": 152.48089687367377
+    },
+    {
+      "month": "2018-02",
+      "days": 28,
+      "gmv": 966168.41,
+      "orders": 6555,
+      "aov": 147.39411289092297
+    },
+    {
+      "month": "2018-03",
+      "days": 31,
+      "gmv": 1120598.24,
+      "orders": 7003,
+      "aov": 160.01688419248893
+    },
+    {
+      "month": "2018-04",
+      "days": 30,
+      "gmv": 1132878.93,
+      "orders": 6798,
+      "aov": 166.64885701676963
+    },
+    {
+      "month": "2018-05",
+      "days": 31,
+      "gmv": 1128774.52,
+      "orders": 6749,
+      "aov": 167.2506326863239
+    },
+    {
+      "month": "2018-06",
+      "days": 30,
+      "gmv": 1011978.29,
+      "orders": 6099,
+      "aov": 165.9252811936383
+    },
+    {
+      "month": "2018-07",
+      "days": 31,
+      "gmv": 1027807.28,
+      "orders": 6159,
+      "aov": 166.8789219029063
+    }
+  ],
+  "cases": {
+    "2018-01": {
+      "previous": "2017-12",
+      "total": {
+        "metrics": {
+          "gmv": {
+            "current": 1077887.46,
+            "previous": 843078.29,
+            "rate": 0.2785140748909569
+          },
+          "orders": {
+            "current": 7069.0,
+            "previous": 5513.0,
+            "rate": 0.2822419735171413
+          },
+          "aov": {
+            "current": 152.48089687367377,
+            "previous": 152.92550154181026,
+            "rate": -0.0029073284942926
+          }
+        },
+        "order_effect": 237952.08039905678,
+        "aov_effect": -3142.9103990568615,
+        "gainers": [
+          {
+            "category": "computers_accessories",
+            "previous": 42967.29,
+            "current": 93086.53,
+            "delta": 50119.24,
+            "rate": 1.1664510375217985
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 68184.69,
+            "current": 99078.58,
+            "delta": 30893.89,
+            "rate": 0.453091302461007
+          },
+          {
+            "category": "bed_bath_table",
+            "previous": 59378.49,
+            "current": 89658.07,
+            "delta": 30279.58000000001,
+            "rate": 0.5099418998361193
+          },
+          {
+            "category": "furniture_decor",
+            "previous": 38228.09,
+            "current": 65574.57,
+            "delta": 27346.48000000001,
+            "rate": 0.7153504137925806
+          },
+          {
+            "category": "stationery",
+            "previous": 29428.15,
+            "current": 46323.52,
+            "delta": 16895.369999999995,
+            "rate": 0.5741227362236496
+          }
+        ],
+        "decliners": [
+          {
+            "category": "toys",
+            "previous": 63462.54,
+            "current": 24211.17,
+            "delta": -39251.37,
+            "rate": -0.6184966753615598
+          },
+          {
+            "category": "computers",
+            "previous": 17916.27,
+            "current": 7646.57,
+            "delta": -10269.7,
+            "rate": -0.5732052486371326
+          },
+          {
+            "category": "perfumery",
+            "previous": 30076.96,
+            "current": 22817.13,
+            "delta": -7259.829999999998,
+            "rate": -0.24137512567759503
+          },
+          {
+            "category": "auto",
+            "previous": 44775.58,
+            "current": 41132.68,
+            "delta": -3642.9000000000015,
+            "rate": -0.08135908010571836
+          },
+          {
+            "category": "fashion_bags_accessories",
+            "previous": 11990.79,
+            "current": 9849.05,
+            "delta": -2141.7400000000016,
+            "rate": -0.17861542066869668
+          }
+        ]
+      },
+      "daily": {
+        "metrics": {
+          "gmv": {
+            "current": 34770.56322580645,
+            "previous": 27196.073870967743,
+            "rate": 0.278514074890957
+          },
+          "orders": {
+            "current": 228.03225806451613,
+            "previous": 177.83870967741936,
+            "rate": 0.28224197351714125
+          },
+          "aov": {
+            "current": 152.48089687367377,
+            "previous": 152.92550154181026,
+            "rate": -0.0029073284942926
+          }
+        },
+        "order_effect": 7675.873561259895,
+        "aov_effect": -101.38420642118908,
+        "gainers": [
+          {
+            "category": "computers_accessories",
+            "previous": 1386.0416129032258,
+            "current": 3002.7912903225806,
+            "delta": 1616.7496774193548,
+            "rate": 1.1664510375217987
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 2199.5061290322583,
+            "current": 3196.0832258064515,
+            "delta": 996.5770967741933,
+            "rate": 0.4530913024610068
+          },
+          {
+            "category": "bed_bath_table",
+            "previous": 1915.4351612903224,
+            "current": 2892.195806451613,
+            "delta": 976.7606451612905,
+            "rate": 0.5099418998361193
+          },
+          {
+            "category": "furniture_decor",
+            "previous": 1233.164193548387,
+            "current": 2115.3087096774198,
+            "delta": 882.1445161290328,
+            "rate": 0.7153504137925808
+          },
+          {
+            "category": "stationery",
+            "previous": 949.2951612903227,
+            "current": 1494.3070967741935,
+            "delta": 545.0119354838708,
+            "rate": 0.5741227362236496
+          }
+        ],
+        "decliners": [
+          {
+            "category": "toys",
+            "previous": 2047.1787096774194,
+            "current": 781.0054838709677,
+            "delta": -1266.1732258064517,
+            "rate": -0.6184966753615597
+          },
+          {
+            "category": "computers",
+            "previous": 577.9441935483871,
+            "current": 246.66354838709677,
+            "delta": -331.2806451612904,
+            "rate": -0.5732052486371327
+          },
+          {
+            "category": "perfumery",
+            "previous": 970.2245161290323,
+            "current": 736.0364516129033,
+            "delta": -234.18806451612897,
+            "rate": -0.241375125677595
+          },
+          {
+            "category": "auto",
+            "previous": 1444.373548387097,
+            "current": 1326.8606451612902,
+            "delta": -117.51290322580667,
+            "rate": -0.08135908010571849
+          },
+          {
+            "category": "fashion_bags_accessories",
+            "previous": 386.79967741935485,
+            "current": 317.7112903225806,
+            "delta": -69.08838709677423,
+            "rate": -0.17861542066869665
+          }
+        ]
+      }
+    },
+    "2018-02": {
+      "previous": "2018-01",
+      "total": {
+        "metrics": {
+          "gmv": {
+            "current": 966168.41,
+            "previous": 1077887.46,
+            "rate": -0.10364630274110428
+          },
+          "orders": {
+            "current": 6555.0,
+            "previous": 7069.0,
+            "rate": -0.07271184043004668
+          },
+          "aov": {
+            "current": 147.39411289092297,
+            "previous": 152.48089687367377,
+            "rate": -0.03336013944727163
+          }
+        },
+        "order_effect": -78375.18099306832,
+        "aov_effect": -33343.869006931505,
+        "gainers": [
+          {
+            "category": "computers_accessories",
+            "previous": 93086.53,
+            "current": 117216.65,
+            "delta": 24130.119999999995,
+            "rate": 0.25922246752564515
+          },
+          {
+            "category": "health_beauty",
+            "previous": 81989.68,
+            "current": 95463.05,
+            "delta": 13473.37000000001,
+            "rate": 0.16433007178464426
+          },
+          {
+            "category": "auto",
+            "previous": 41132.68,
+            "current": 47326.78,
+            "delta": 6194.0999999999985,
+            "rate": 0.15058829135373622
+          },
+          {
+            "category": "consoles_games",
+            "previous": 8145.05,
+            "current": 12786.41,
+            "delta": 4641.36,
+            "rate": 0.5698381225406841
+          },
+          {
+            "category": "home_appliances",
+            "previous": 2107.29,
+            "current": 6362.58,
+            "delta": 4255.29,
+            "rate": 2.01931865096878
+          }
+        ],
+        "decliners": [
+          {
+            "category": "stationery",
+            "previous": 46323.52,
+            "current": 12442.23,
+            "delta": -33881.28999999999,
+            "rate": -0.7314057739999033
+          },
+          {
+            "category": "furniture_decor",
+            "previous": 65574.57,
+            "current": 46059.76,
+            "delta": -19514.810000000005,
+            "rate": -0.2975972240458459
+          },
+          {
+            "category": "bed_bath_table",
+            "previous": 89658.07,
+            "current": 71610.43,
+            "delta": -18047.640000000014,
+            "rate": -0.201294094329713
+          },
+          {
+            "category": "luggage_accessories",
+            "previous": 21815.93,
+            "current": 7576.11,
+            "delta": -14239.82,
+            "rate": -0.6527257834068958
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 99078.58,
+            "current": 86346.83,
+            "delta": -12731.75,
+            "rate": -0.12850153887954388
+          }
+        ]
+      },
+      "daily": {
+        "metrics": {
+          "gmv": {
+            "current": 34506.014642857146,
+            "previous": 34770.56322580645,
+            "rate": -0.007608406606222547
+          },
+          "orders": {
+            "current": 234.10714285714286,
+            "previous": 228.03225806451613,
+            "rate": 0.026640462381019765
+          },
+          "aov": {
+            "current": 147.39411289092297,
+            "previous": 152.48089687367377,
+            "rate": -0.03336013944727163
+          }
+        },
+        "order_effect": 926.3038815839659,
+        "aov_effect": -1190.8524645332682,
+        "gainers": [
+          {
+            "category": "computers_accessories",
+            "previous": 3002.7912903225806,
+            "current": 4186.308928571429,
+            "delta": 1183.517638248848,
+            "rate": 0.39413916047482156
+          },
+          {
+            "category": "health_beauty",
+            "previous": 2644.828387096774,
+            "current": 3409.394642857143,
+            "delta": 764.5662557603691,
+            "rate": 0.28907972233299906
+          },
+          {
+            "category": "auto",
+            "previous": 1326.8606451612902,
+            "current": 1690.2421428571429,
+            "delta": 363.38149769585266,
+            "rate": 0.2738656082844938
+          },
+          {
+            "category": "consoles_games",
+            "previous": 262.7435483870968,
+            "current": 456.65749999999997,
+            "delta": 193.9139516129032,
+            "rate": 0.7380350642414717
+          },
+          {
+            "category": "home_appliances",
+            "previous": 67.97709677419354,
+            "current": 227.23499999999999,
+            "delta": 159.25790322580644,
+            "rate": 2.342817077858292
+          }
+        ],
+        "decliners": [
+          {
+            "category": "stationery",
+            "previous": 1494.3070967741935,
+            "current": 444.36535714285714,
+            "delta": -1049.9417396313363,
+            "rate": -0.7026278212141785
+          },
+          {
+            "category": "furniture_decor",
+            "previous": 2115.3087096774198,
+            "current": 1644.9914285714287,
+            "delta": -470.317281105991,
+            "rate": -0.22233978376504365
+          },
+          {
+            "category": "luggage_accessories",
+            "previous": 703.7396774193548,
+            "current": 270.5753571428571,
+            "delta": -433.16432027649773,
+            "rate": -0.6155178316290633
+          },
+          {
+            "category": "bed_bath_table",
+            "previous": 2892.195806451613,
+            "current": 2557.515357142857,
+            "delta": -334.6804493087561,
+            "rate": -0.1157184615793251
+          },
+          {
+            "category": "small_appliances",
+            "previous": 502.55645161290323,
+            "current": 211.1692857142857,
+            "delta": -291.3871658986175,
+            "rate": -0.5798098202966858
+          }
+        ]
+      }
+    },
+    "2018-03": {
+      "previous": "2018-02",
+      "total": {
+        "metrics": {
+          "gmv": {
+            "current": 1120598.24,
+            "previous": 966168.41,
+            "rate": 0.15983738280161733
+          },
+          "orders": {
+            "current": 7003.0,
+            "previous": 6555.0,
+            "rate": 0.06834477498093058
+          },
+          "aov": {
+            "current": 160.01688419248893,
+            "previous": 147.39411289092297,
+            "rate": 0.08563958935664732
+          }
+        },
+        "order_effect": 66032.56257513349,
+        "aov_effect": 88397.26742486643,
+        "gainers": [
+          {
+            "category": "watches_gifts",
+            "previous": 66599.36,
+            "current": 104292.26,
+            "delta": 37692.899999999994,
+            "rate": 0.5659648981611834
+          },
+          {
+            "category": "furniture_decor",
+            "previous": 46059.76,
+            "current": 64616.04,
+            "delta": 18556.28,
+            "rate": 0.4028740054225206
+          },
+          {
+            "category": "office_furniture",
+            "previous": 21419.84,
+            "current": 39166.09,
+            "delta": 17746.249999999996,
+            "rate": 0.8284959178033074
+          },
+          {
+            "category": "baby",
+            "previous": 29347.87,
+            "current": 45831.15,
+            "delta": 16483.280000000002,
+            "rate": 0.5616516633064002
+          },
+          {
+            "category": "telephony",
+            "previous": 18495.86,
+            "current": 30041.16,
+            "delta": 11545.3,
+            "rate": 0.6242099583366223
+          }
+        ],
+        "decliners": [
+          {
+            "category": "computers_accessories",
+            "previous": 117216.65,
+            "current": 99444.68,
+            "delta": -17771.97,
+            "rate": -0.1516164299184459
+          },
+          {
+            "category": "home_appliances_2",
+            "previous": 9986.74,
+            "current": 6085.99,
+            "delta": -3900.75,
+            "rate": -0.39059292622016795
+          },
+          {
+            "category": "electronics",
+            "previous": 20071.12,
+            "current": 16693.3,
+            "delta": -3377.8199999999997,
+            "rate": -0.16829255168620386
+          },
+          {
+            "category": "fixed_telephony",
+            "previous": 4918.3,
+            "current": 2200.84,
+            "delta": -2717.46,
+            "rate": -0.5525201797369009
+          },
+          {
+            "category": "agro_industry_and_commerce",
+            "previous": 8031.41,
+            "current": 5639.49,
+            "delta": -2391.92,
+            "rate": -0.297820681549068
+          }
+        ]
+      },
+      "daily": {
+        "metrics": {
+          "gmv": {
+            "current": 36148.330322580645,
+            "previous": 34506.014642857146,
+            "rate": 0.04759505543371881
+          },
+          "orders": {
+            "current": 225.90322580645162,
+            "previous": 234.10714285714286,
+            "rate": -0.03504342904948206
+          },
+          "aov": {
+            "current": 160.01688419248893,
+            "previous": 147.39411289092297,
+            "rate": 0.08563958935664732
+          }
+        },
+        "order_effect": -1209.2090759173532,
+        "aov_effect": 2851.5247556408526,
+        "gainers": [
+          {
+            "category": "watches_gifts",
+            "previous": 2378.5485714285714,
+            "current": 3364.266451612903,
+            "delta": 985.7178801843315,
+            "rate": 0.41441990801655276
+          },
+          {
+            "category": "office_furniture",
+            "previous": 764.9942857142858,
+            "current": 1263.422258064516,
+            "delta": 498.4279723502302,
+            "rate": 0.6515446999513743
+          },
+          {
+            "category": "furniture_decor",
+            "previous": 1644.9914285714287,
+            "current": 2084.3883870967743,
+            "delta": 439.39695852534555,
+            "rate": 0.26711200489776055
+          },
+          {
+            "category": "baby",
+            "previous": 1048.1382142857142,
+            "current": 1478.4241935483872,
+            "delta": 430.285979262673,
+            "rate": 0.41052408298642606
+          },
+          {
+            "category": "telephony",
+            "previous": 660.5664285714286,
+            "current": 969.0696774193549,
+            "delta": 308.50324884792633,
+            "rate": 0.46702834946533645
+          }
+        ],
+        "decliners": [
+          {
+            "category": "computers_accessories",
+            "previous": 4186.308928571429,
+            "current": 3207.892903225806,
+            "delta": -978.4160253456225,
+            "rate": -0.23371806573278991
+          },
+          {
+            "category": "health_beauty",
+            "previous": 3409.394642857143,
+            "current": 3130.188064516129,
+            "delta": -279.20657834101394,
+            "rate": -0.08189330001030126
+          },
+          {
+            "category": "electronics",
+            "previous": 716.8257142857143,
+            "current": 538.4935483870968,
+            "delta": -178.33216589861752,
+            "rate": -0.24878036926495833
+          },
+          {
+            "category": "home_appliances_2",
+            "previous": 356.6692857142857,
+            "current": 196.32225806451612,
+            "delta": -160.3470276497696,
+            "rate": -0.4495678043278936
+          },
+          {
+            "category": "housewares",
+            "previous": 1545.1735714285714,
+            "current": 1412.376451612903,
+            "delta": -132.79711981566834,
+            "rate": -0.08594317316267089
+          }
+        ]
+      }
+    },
+    "2018-04": {
+      "previous": "2018-03",
+      "total": {
+        "metrics": {
+          "gmv": {
+            "current": 1132878.93,
+            "previous": 1120598.24,
+            "rate": 0.010959048088456701
+          },
+          "orders": {
+            "current": 6798.0,
+            "previous": 7003.0,
+            "rate": -0.02927316864201057
+          },
+          "aov": {
+            "current": 166.64885701676963,
+            "previous": 160.01688419248893,
+            "rate": 0.041445456570088586
+          }
+        },
+        "order_effect": -32803.46125946023,
+        "aov_effect": 45084.15125946016,
+        "gainers": [
+          {
+            "category": "home_appliances_2",
+            "previous": 6085.99,
+            "current": 21959.04,
+            "delta": 15873.050000000001,
+            "rate": 2.6081294908470114
+          },
+          {
+            "category": "computers",
+            "previous": 0.0,
+            "current": 14571.61,
+            "delta": 14571.61,
+            "rate": null
+          },
+          {
+            "category": "musical_instruments",
+            "previous": 10155.62,
+            "current": 21176.37,
+            "delta": 11020.749999999998,
+            "rate": 1.0851873150039089
+          },
+          {
+            "category": "housewares",
+            "previous": 43783.67,
+            "current": 54455.05,
+            "delta": 10671.380000000005,
+            "rate": 0.24372968277899054
+          },
+          {
+            "category": "baby",
+            "previous": 45831.15,
+            "current": 53839.74,
+            "delta": 8008.5899999999965,
+            "rate": 0.17474119676246389
+          }
+        ],
+        "decliners": [
+          {
+            "category": "computers_accessories",
+            "previous": 99444.68,
+            "current": 67269.65,
+            "delta": -32175.03,
+            "rate": -0.3235470213187875
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 95994.77,
+            "current": 76860.92,
+            "delta": -19133.850000000006,
+            "rate": -0.19932179638536562
+          },
+          {
+            "category": "office_furniture",
+            "previous": 39166.09,
+            "current": 26236.86,
+            "delta": -12929.229999999996,
+            "rate": -0.33011286038509324
+          },
+          {
+            "category": "unknown",
+            "previous": 19123.48,
+            "current": 9325.03,
+            "delta": -9798.449999999999,
+            "rate": -0.5123779772300857
+          },
+          {
+            "category": "telephony",
+            "previous": 30041.16,
+            "current": 20415.77,
+            "delta": -9625.39,
+            "rate": -0.320406735292512
+          }
+        ]
+      },
+      "daily": {
+        "metrics": {
+          "gmv": {
+            "current": 37762.631,
+            "previous": 36148.330322580645,
+            "rate": 0.04465768302473869
+          },
+          "orders": {
+            "current": 226.6,
+            "previous": 225.90322580645162,
+            "rate": 0.00308439240325571
+          },
+          "aov": {
+            "current": 166.64885701676963,
+            "previous": 160.01688419248893,
+            "rate": 0.041445456570088586
+          }
+        },
+        "order_effect": 111.49563543734578,
+        "aov_effect": 1502.8050419820054,
+        "gainers": [
+          {
+            "category": "home_appliances_2",
+            "previous": 196.32225806451612,
+            "current": 731.9680000000001,
+            "delta": 535.645741935484,
+            "rate": 2.7284004738752454
+          },
+          {
+            "category": "computers",
+            "previous": 0.0,
+            "current": 485.7203333333334,
+            "delta": 485.7203333333334,
+            "rate": null
+          },
+          {
+            "category": "housewares",
+            "previous": 1412.376451612903,
+            "current": 1815.1683333333335,
+            "delta": 402.7918817204304,
+            "rate": 0.2851873388716237
+          },
+          {
+            "category": "musical_instruments",
+            "previous": 327.60064516129034,
+            "current": 705.879,
+            "delta": 378.2783548387097,
+            "rate": 1.1546935588373728
+          },
+          {
+            "category": "health_beauty",
+            "previous": 3130.188064516129,
+            "current": 3477.7633333333333,
+            "delta": 347.57526881720423,
+            "rate": 0.11103973999432304
+          }
+        ],
+        "decliners": [
+          {
+            "category": "computers_accessories",
+            "previous": 3207.892903225806,
+            "current": 2242.3216666666663,
+            "delta": -965.5712365591398,
+            "rate": -0.3009985886960805
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 3096.605483870968,
+            "current": 2562.0306666666665,
+            "delta": -534.5748172043013,
+            "rate": -0.1726325229315445
+          },
+          {
+            "category": "office_furniture",
+            "previous": 1263.422258064516,
+            "current": 874.562,
+            "delta": -388.86025806451596,
+            "rate": -0.30778328906459634
+          },
+          {
+            "category": "unknown",
+            "previous": 616.8864516129032,
+            "current": 310.83433333333335,
+            "delta": -306.05211827956987,
+            "rate": -0.4961239098044219
+          },
+          {
+            "category": "telephony",
+            "previous": 969.0696774193549,
+            "current": 680.5256666666667,
+            "delta": -288.5440107526882,
+            "rate": -0.2977536264689291
+          }
+        ]
+      }
+    },
+    "2018-05": {
+      "previous": "2018-04",
+      "total": {
+        "metrics": {
+          "gmv": {
+            "current": 1128774.52,
+            "previous": 1132878.93,
+            "rate": -0.003622990852164508
+          },
+          "orders": {
+            "current": 6749.0,
+            "previous": 6798.0,
+            "rate": -0.007208002353633422
+          },
+          "aov": {
+            "current": 167.2506326863239,
+            "previous": 166.64885701676963,
+            "rate": 0.0036110398854624606
+          }
+        },
+        "order_effect": -8165.793993821711,
+        "aov_effect": 4061.3839938218744,
+        "gainers": [
+          {
+            "category": "watches_gifts",
+            "previous": 96089.14,
+            "current": 127977.4,
+            "delta": 31888.259999999995,
+            "rate": 0.3318612280222301
+          },
+          {
+            "category": "housewares",
+            "previous": 54455.05,
+            "current": 76236.64,
+            "delta": 21781.589999999997,
+            "rate": 0.39999210357900683
+          },
+          {
+            "category": "toys",
+            "previous": 27310.58,
+            "current": 36155.03,
+            "delta": 8844.449999999997,
+            "rate": 0.32384702192337167
+          },
+          {
+            "category": "construction_tools_construction",
+            "previous": 15120.04,
+            "current": 23580.34,
+            "delta": 8460.3,
+            "rate": 0.5595421705233583
+          },
+          {
+            "category": "perfumery",
+            "previous": 20091.32,
+            "current": 27616.74,
+            "delta": 7525.420000000002,
+            "rate": 0.37456075558997626
+          }
+        ],
+        "decliners": [
+          {
+            "category": "baby",
+            "previous": 53839.74,
+            "current": 38552.46,
+            "delta": -15287.279999999999,
+            "rate": -0.283940449935308
+          },
+          {
+            "category": "home_appliances",
+            "previous": 17223.2,
+            "current": 7380.41,
+            "delta": -9842.79,
+            "rate": -0.5714843931441312
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 76860.92,
+            "current": 68331.36,
+            "delta": -8529.559999999998,
+            "rate": -0.11097395139168251
+          },
+          {
+            "category": "computers_accessories",
+            "previous": 67269.65,
+            "current": 59048.69,
+            "delta": -8220.959999999992,
+            "rate": -0.1222090496977462
+          },
+          {
+            "category": "pet_shop",
+            "previous": 21776.17,
+            "current": 14084.07,
+            "delta": -7692.0999999999985,
+            "rate": -0.3532347515655875
+          }
+        ]
+      },
+      "daily": {
+        "metrics": {
+          "gmv": {
+            "current": 36412.08129032258,
+            "previous": 37762.631,
+            "rate": -0.03576418469564315
+          },
+          "orders": {
+            "current": 217.70967741935485,
+            "previous": 226.6,
+            "rate": -0.03923355066480648
+          },
+          "aov": {
+            "current": 167.2506326863239,
+            "previous": 166.64885701676963,
+            "rate": 0.0036110398854624606
+          }
+        },
+        "order_effect": -1481.5620965748915,
+        "aov_effect": 131.01238689747981,
+        "gainers": [
+          {
+            "category": "watches_gifts",
+            "previous": 3202.9713333333334,
+            "current": 4128.303225806451,
+            "delta": 925.3318924731179,
+            "rate": 0.2888979626021581
+          },
+          {
+            "category": "housewares",
+            "previous": 1815.1683333333335,
+            "current": 2459.246451612903,
+            "delta": 644.0781182795695,
+            "rate": 0.35483106797968383
+          },
+          {
+            "category": "construction_tools_construction",
+            "previous": 504.0013333333334,
+            "current": 760.656129032258,
+            "delta": 256.65479569892466,
+            "rate": 0.5092343585709919
+          },
+          {
+            "category": "toys",
+            "previous": 910.3526666666668,
+            "current": 1166.2912903225806,
+            "delta": 255.93862365591383,
+            "rate": 0.2811422792806822
+          },
+          {
+            "category": "perfumery",
+            "previous": 669.7106666666666,
+            "current": 890.8625806451613,
+            "delta": 221.1519139784947,
+            "rate": 0.3302200860548158
+          }
+        ],
+        "decliners": [
+          {
+            "category": "baby",
+            "previous": 1794.658,
+            "current": 1243.6277419354838,
+            "delta": -551.0302580645161,
+            "rate": -0.3070391450986852
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 2562.0306666666665,
+            "current": 2204.237419354839,
+            "delta": -357.7932473118276,
+            "rate": -0.13965221102420877
+          },
+          {
+            "category": "computers_accessories",
+            "previous": 2242.3216666666663,
+            "current": 1904.7964516129034,
+            "delta": -337.52521505376285,
+            "rate": -0.1505248868042704
+          },
+          {
+            "category": "home_appliances",
+            "previous": 574.1066666666667,
+            "current": 238.07774193548386,
+            "delta": -336.0289247311828,
+            "rate": -0.585307477236256
+          },
+          {
+            "category": "auto",
+            "previous": 1840.5649999999998,
+            "current": 1550.961935483871,
+            "delta": -289.6030645161288,
+            "rate": -0.15734465477509832
+          }
+        ]
+      }
+    },
+    "2018-06": {
+      "previous": "2018-05",
+      "total": {
+        "metrics": {
+          "gmv": {
+            "current": 1011978.29,
+            "previous": 1128774.52,
+            "rate": -0.10347171018707968
+          },
+          "orders": {
+            "current": 6099.0,
+            "previous": 6749.0,
+            "rate": -0.09631056452807824
+          },
+          "aov": {
+            "current": 165.9252811936383,
+            "previous": 167.2506326863239,
+            "rate": -0.007924343671520069
+          }
+        },
+        "order_effect": -108712.91124611054,
+        "aov_effect": -8083.318753889465,
+        "gainers": [
+          {
+            "category": "health_beauty",
+            "previous": 108261.36,
+            "current": 123857.97,
+            "delta": 15596.61,
+            "rate": 0.1440644196599784
+          },
+          {
+            "category": "pet_shop",
+            "previous": 14084.07,
+            "current": 23421.37,
+            "delta": 9337.3,
+            "rate": 0.6629688719240958
+          },
+          {
+            "category": "signaling_and_security",
+            "previous": 862.99,
+            "current": 6940.76,
+            "delta": 6077.77,
+            "rate": 7.04268879129538
+          },
+          {
+            "category": "small_appliances",
+            "previous": 11507.33,
+            "current": 16551.07,
+            "delta": 5043.74,
+            "rate": 0.4383067140683373
+          },
+          {
+            "category": "computers",
+            "previous": 9161.35,
+            "current": 13867.87,
+            "delta": 4706.52,
+            "rate": 0.5137365126318719
+          }
+        ],
+        "decliners": [
+          {
+            "category": "watches_gifts",
+            "previous": 127977.4,
+            "current": 93881.09,
+            "delta": -34096.31,
+            "rate": -0.2664244624441503
+          },
+          {
+            "category": "garden_tools",
+            "previous": 42903.48,
+            "current": 23031.2,
+            "delta": -19872.280000000002,
+            "rate": -0.4631857369145813
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 68331.36,
+            "current": 53768.47,
+            "delta": -14562.89,
+            "rate": -0.2131216179511135
+          },
+          {
+            "category": "furniture_decor",
+            "previous": 65041.44,
+            "current": 52315.87,
+            "delta": -12725.57,
+            "rate": -0.19565326351938087
+          },
+          {
+            "category": "cool_stuff",
+            "previous": 33828.78,
+            "current": 22026.04,
+            "delta": -11802.739999999998,
+            "rate": -0.34889641305421
+          }
+        ]
+      },
+      "daily": {
+        "metrics": {
+          "gmv": {
+            "current": 33732.60966666667,
+            "previous": 36412.08129032258,
+            "rate": -0.07358743385998226
+          },
+          "orders": {
+            "current": 203.3,
+            "previous": 217.70967741935485,
+            "rate": -0.06618758334568083
+          },
+          "aov": {
+            "current": 165.9252811936383,
+            "previous": 167.2506326863239,
+            "rate": -0.007924343671520069
+          }
+        },
+        "order_effect": -2410.0276651929316,
+        "aov_effect": -269.4439584629822,
+        "gainers": [
+          {
+            "category": "health_beauty",
+            "previous": 3492.301935483871,
+            "current": 4128.599,
+            "delta": 636.297064516129,
+            "rate": 0.182199900315311
+          },
+          {
+            "category": "pet_shop",
+            "previous": 454.3248387096774,
+            "current": 780.7123333333333,
+            "delta": 326.38749462365587,
+            "rate": 0.7184011676548989
+          },
+          {
+            "category": "signaling_and_security",
+            "previous": 27.838387096774195,
+            "current": 231.35866666666666,
+            "delta": 203.52027956989247,
+            "rate": 7.310778417671892
+          },
+          {
+            "category": "small_appliances",
+            "previous": 371.2041935483871,
+            "current": 551.7023333333333,
+            "delta": 180.4981397849462,
+            "rate": 0.4862502712039485
+          },
+          {
+            "category": "auto",
+            "previous": 1550.961935483871,
+            "current": 1729.172,
+            "delta": 178.21006451612902,
+            "rate": 0.11490292600929038
+          }
+        ],
+        "decliners": [
+          {
+            "category": "watches_gifts",
+            "previous": 4128.303225806451,
+            "current": 3129.3696666666665,
+            "delta": -998.9335591397848,
+            "rate": -0.24197194452562196
+          },
+          {
+            "category": "garden_tools",
+            "previous": 1383.9832258064516,
+            "current": 767.7066666666667,
+            "delta": -616.2765591397849,
+            "rate": -0.4452919281450673
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 2204.237419354839,
+            "current": 1792.2823333333333,
+            "delta": -411.9550860215056,
+            "rate": -0.18689233854948406
+          },
+          {
+            "category": "cool_stuff",
+            "previous": 1091.2509677419355,
+            "current": 734.2013333333333,
+            "delta": -357.0496344086022,
+            "rate": -0.32719296015601707
+          },
+          {
+            "category": "furniture_decor",
+            "previous": 2098.1109677419354,
+            "current": 1743.8623333333335,
+            "delta": -354.2486344086019,
+            "rate": -0.16884170563669346
+          }
+        ]
+      }
+    },
+    "2018-07": {
+      "previous": "2018-06",
+      "total": {
+        "metrics": {
+          "gmv": {
+            "current": 1027807.28,
+            "previous": 1011978.29,
+            "rate": 0.015641630019553078
+          },
+          "orders": {
+            "current": 6159.0,
+            "previous": 6099.0,
+            "rate": 0.009837678307919331
+          },
+          "aov": {
+            "current": 166.8789219029063,
+            "previous": 165.9252811936383,
+            "rate": 0.005747410535680105
+          }
+        },
+        "order_effect": 9955.516871618298,
+        "aov_effect": 5873.473128381617,
+        "gainers": [
+          {
+            "category": "watches_gifts",
+            "previous": 93881.09,
+            "current": 104902.5,
+            "delta": 11021.410000000003,
+            "rate": 0.1173975504545165
+          },
+          {
+            "category": "sports_leisure",
+            "previous": 53768.47,
+            "current": 64342.49,
+            "delta": 10574.019999999997,
+            "rate": 0.1966583761821751
+          },
+          {
+            "category": "housewares",
+            "previous": 69263.67,
+            "current": 76944.79,
+            "delta": 7681.119999999995,
+            "rate": 0.11089680925079476
+          },
+          {
+            "category": "garden_tools",
+            "previous": 23031.2,
+            "current": 30517.22,
+            "delta": 7486.02,
+            "rate": 0.3250382090381743
+          },
+          {
+            "category": "fixed_telephony",
+            "previous": 2422.52,
+            "current": 9658.18,
+            "delta": 7235.66,
+            "rate": 2.98683189406073
+          }
+        ],
+        "decliners": [
+          {
+            "category": "bed_bath_table",
+            "previous": 87074.55,
+            "current": 67850.11,
+            "delta": -19224.440000000002,
+            "rate": -0.22078138790266502
+          },
+          {
+            "category": "baby",
+            "previous": 36800.02,
+            "current": 26894.69,
+            "delta": -9905.329999999998,
+            "rate": -0.26916642980085337
+          },
+          {
+            "category": "musical_instruments",
+            "previous": 17970.76,
+            "current": 9309.47,
+            "delta": -8661.289999999999,
+            "rate": -0.48196570428852203
+          },
+          {
+            "category": "construction_tools_construction",
+            "previous": 25372.45,
+            "current": 17589.95,
+            "delta": -7782.5,
+            "rate": -0.30673033152100015
+          },
+          {
+            "category": "small_appliances",
+            "previous": 16551.07,
+            "current": 9181.61,
+            "delta": -7369.459999999999,
+            "rate": -0.44525580521380187
+          }
+        ]
+      },
+      "daily": {
+        "metrics": {
+          "gmv": {
+            "current": 33155.073548387096,
+            "previous": 33732.60966666667,
+            "rate": -0.01712100320688426
+          },
+          "orders": {
+            "current": 198.67741935483872,
+            "previous": 203.3,
+            "rate": -0.022737730669755495
+          },
+          "aov": {
+            "current": 166.8789219029063,
+            "previous": 165.9252811936383,
+            "rate": 0.005747410535680105
+          }
+        },
+        "order_effect": -767.0029933886575,
+        "aov_effect": 189.46687510908444,
+        "gainers": [
+          {
+            "category": "sports_leisure",
+            "previous": 1792.2823333333333,
+            "current": 2075.564193548387,
+            "delta": 283.2818602150535,
+            "rate": 0.1580564930795242
+          },
+          {
+            "category": "watches_gifts",
+            "previous": 3129.3696666666665,
+            "current": 3383.951612903226,
+            "delta": 254.58194623655936,
+            "rate": 0.08135246818179019
+          },
+          {
+            "category": "fixed_telephony",
+            "previous": 80.75066666666666,
+            "current": 311.5541935483871,
+            "delta": 230.80352688172044,
+            "rate": 2.8582244136071586
+          },
+          {
+            "category": "garden_tools",
+            "previous": 767.7066666666667,
+            "current": 984.4264516129033,
+            "delta": 216.7197849462366,
+            "rate": 0.28229504100468483
+          },
+          {
+            "category": "housewares",
+            "previous": 2308.7889999999998,
+            "current": 2482.0899999999997,
+            "delta": 173.30099999999993,
+            "rate": 0.07506142830722078
+          }
+        ],
+        "decliners": [
+          {
+            "category": "bed_bath_table",
+            "previous": 2902.485,
+            "current": 2188.7132258064516,
+            "delta": -713.7717741935485,
+            "rate": -0.2459174721638694
+          },
+          {
+            "category": "baby",
+            "previous": 1226.6673333333333,
+            "current": 867.5706451612903,
+            "delta": -359.09668817204306,
+            "rate": -0.2927417062588904
+          },
+          {
+            "category": "musical_instruments",
+            "previous": 599.0253333333333,
+            "current": 300.30548387096775,
+            "delta": -298.7198494623655,
+            "rate": -0.4986764880211503
+          },
+          {
+            "category": "construction_tools_construction",
+            "previous": 845.7483333333333,
+            "current": 567.417741935484,
+            "delta": -278.3305913978494,
+            "rate": -0.329093869213871
+          },
+          {
+            "category": "small_appliances",
+            "previous": 551.7023333333333,
+            "current": 296.1809677419355,
+            "delta": -255.5213655913978,
+            "rate": -0.46315077923916304
+          }
+        ]
+      }
+    }
+  }
+}
