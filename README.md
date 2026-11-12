@@ -60,10 +60,66 @@
 
 ## 运行方式
 
+### 经营透镜网站 Demo
+
+需要 Node.js 24 和 Python 3.11 或以上。内置看板使用 [Olist 公开数据](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) 的已交付订单聚合结果。演示数据按月份、品类、买家州和商品汇总，商品编号经过脱敏，采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)。
+
+在第一个 PowerShell 窗口启动 API：
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-local.txt
+.\.venv\Scripts\python.exe -m uvicorn api.index:app --host 127.0.0.1 --port 8001
+```
+
+在另一个 PowerShell 窗口启动前端：
+
+```powershell
+npm.cmd ci
+npm.cmd run dev
+```
+
+打开 [本地看板](http://127.0.0.1:5174/) 或 [4 月对照案例](http://127.0.0.1:5174/?month=2018-04&basis=total)。执行 `npm.cmd run build` 进行类型检查并生成 `dist/`。
+
+要启用实时复盘，在项目根目录创建 Git 忽略的 `.env.local`，填写新密钥和百炼控制台给出的 OpenAI 兼容 Base URL。Base URL 以 `/compatible-mode/v1` 结尾。模型缺省为 `qwen3.8-flash`。
+
+```dotenv
+LLM_API_KEY=
+LLM_BASE_URL=
+LLM_MODEL=qwen3.8-flash
+```
+
+保存后，在「AI 经营复盘」点「重新检查」再生成。如果未创建 `.env.local`，网站也可以读取现有 `.env` 中的百炼配置。下面的 Streamlit 继续使用 `.env`。
+
+从首屏或涨跌榜打开品类诊断，再点「按州排查订单变化」。复制视图链接可以分享当前品类和诊断层级。生成 AI 复盘后，也可以在报告内逐条验证假设。量价和州级结果从聚合数据计算。品类订单数按订单号去重，品类客单价用该品类 GMV 除以包含该品类的订单数。
+
+在品类面板或州级表格点「查看商品」，可以比较两期商品 GMV 和订单数，并按只在一期有成交的商品筛选。
+
+「导入订单明细」支持最多 5 MB 的 Excel（.xlsx）和 UTF-8、GB18030 CSV。导入页会推荐工作表与表头行，自动匹配常见中文字段，并显示可调整的金额列、订单状态和币种。商品行金额可用于品类和商品分析，订单实付按主订单去重汇总。文件在当前浏览器标签页处理，刷新后回到支持实时 AI 复盘的公开案例。
+
+需要重建网站的数据文件时，先通过 `python scripts/build_database.py` 构建 SQLite，再执行 `python scripts/export_demo_data.py`。导出的 JSON 提供看板指标及品类、买家州和商品的聚合数据。
+
+### Vercel 部署
+
+在 Vercel Hobby 导入本仓库，根目录选择仓库根目录，Production Branch 设为 `main`。Vite、同域 FastAPI 路由和香港函数区域由 `vercel.json` 配置，Python 固定为 3.12。先在 PR 的 Preview 验收 6 月量价、州级和商品下钻、分享链接及合成报表导入，再合并并在项目的固定网址复测。
+
+Preview 可浏览案例和导入报表。Production 默认提供同样体验，只有确认百炼预算并验证 Redis 额度后，才在 Production 设置以下变量并重新部署。
+
+| 变量 | 用途 |
+| --- | --- |
+| `LLM_API_KEY`、`LLM_BASE_URL`、`LLM_MODEL` | 电商 Demo 的专用百炼凭据、兼容接口地址和模型名 |
+| `UPSTASH_REDIS_REST_URL`、`UPSTASH_REDIS_REST_TOKEN` | 可写的 Upstash Redis REST 凭据 |
+| `QUOTA_HASH_SECRET` | 独立生成的随机密钥，用于散列公网 IP |
+| `AI_BUDGET_CONFIRMED` | 初始为 `0`，百炼已设预算告警和达额停用、Redis 已验证后设为 `1` |
+
+`GET /api/status` 可检查复盘是否开放。启用后用新公网出口实测 6 月和 4 月复盘，同一出口第 4 次应返回 `429`。每公网 IP 每日 3 次，全站每月 200 次，按 UTC 重置。需要暂停 AI 时把开关改回 `0` 后重新部署，紧急时停用专用 Key。整站故障可使用 Vercel 的上一生产部署回滚，修复后恢复自动分配生产域名。
+
+### Streamlit
+
 请使用 Python 3.10+ 环境运行项目。
 
 ```powershell
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-local.txt
 python -m streamlit run app.py
 ```
 
